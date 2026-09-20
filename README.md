@@ -34,3 +34,19 @@ go install github.com/fatih/gomodifytags@latest
 go install github.com/josharian/impl@latest
 ```
 _________________________________________________________________________________
+
+Infelismente quando o W11 começa a atrapalhar tive que começar a usar a WSL, 
+
+caso alguem queira terar que instalar os pacotes necessarios 
+
+* sudo snap install go --classic
+_________________________________________________________________________________
+
+wget https://go.dev/dl/go1.25.1.linux-amd64.tar.gz
+sudo rm -rf /usr/local/go && sudo tar -C /usr/local -xzf go1.25.1.linux-amd64.tar.gz
+echo 'export PATH=$PATH:/usr/local/go/bin' >> ~/.bashrc
+source ~/.bashrc
+
+_________________________________________________________________________________
+por fim para baixar todas as dependencias do GO
+* sudo apt install golang-go
