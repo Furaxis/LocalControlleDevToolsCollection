@@ -55,3 +55,6 @@ por fim para baixar todas as dependencias do GO
 ```
 sudo apt install golang-go
 ```
+
+estou pensando em começar a usar p https://alacritty.org/, sei la
+[proxies](https://github.com/gin-gonic/gin/blob/master/docs/doc.md#dont-trust-all-proxies)
