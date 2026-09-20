@@ -1,20 +1,12 @@
 package main
 
 import (
-	"net/http"
-
-	"github.com/gin-gonic/gin"
+	"github.com/Furaxis/LocalControlleDevToolsCollection/routes"
 )
 
 func main() {
-	r := gin.Default()
-
-	r.GET("/ping", func(c *gin.Context) {
-		c.JSON(http.StatusOK, gin.H{
-			"message": "pong",
-		})
-	})
-	r.Run()
+	print("http://localhost:8080/api/v1/opening")
+	routes.Init()
 }
 
 // url_base_teste : http://localhost:8080/ping
