@@ -12,6 +12,6 @@ func InitRoute(router *gin.Engine) {
 		v1.GET("/PostOpening", handler.MostrarDataPostagem)
 		v1.DELETE("/PostOpening", handler.DeletarPostagem)
 		v1.PUT("/PostOpening", handler.EditarPostagem)
-		v1.GET("/PostOpening", handler.ListaPostagens)
+		v1.GET("/PostOpenings", handler.ListaPostagens)
 	}
 }
